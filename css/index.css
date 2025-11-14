@@ -2,14 +2,15 @@ body{
     background-color: burlywood;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1pc;
+    justify-content: center; 
+    margin-top: auto;
 }
-
 .firstImage{
-    width: 150px;
-    height: 150px;
+    width: 450px;
+    height: 450px;
     margin: auto;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: auto;
 }
 
 body{
@@ -17,6 +18,20 @@ body{
     
 }
 
-h1{
+h1,h2{
     color: darkred;
+}
+.secondImage{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    display: block;
+    margin-bottom: auto;
+}
+.thirdImage{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    display: block;
+    margin-bottom: auto;
 }

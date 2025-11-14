@@ -35,3 +35,10 @@ h1,h2{
     display: block;
     margin-bottom: auto;
 }
+.fourImage{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    display: block;
+    margin-bottom: auto
+}

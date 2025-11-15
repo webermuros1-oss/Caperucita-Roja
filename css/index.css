@@ -1,10 +1,22 @@
-header,h2{color: antiquewhite; 
+header,h2{
 display: grid;
 place-items: center;
+color: red;
+font-size: xx-large;
 }
-body{color: antiquewhite;
-align-items: center;
+h2{
+    color: black;
+}
+body{align-items: center;
 background: green;
+display: grid;
+place-items:center;
+}
+main{
+    display: grid;
+    place-items: center;
+    color:black;
+    font-size: x-large;
 }
 .firstImage{
     display: grid;
@@ -17,16 +29,27 @@ background: green;
     margin: auto;
     place-items: center;
     display: block;
+    height: 400px;
+    width: 400px;
 }
 .thirdImage{
     display: grid;
 place-items: center;
 margin: auto;
 display: block;
+height: 430px;
+width: 430px;
 }
 .fourImage{
     display: grid;
     place-items: center;
     margin: auto;
-    display: block
+    display: block;
+    width: 430px;
+    height: 430px;
+}
+.firstSection{
+    color: red;
+    place-items: center;
+    font-size: xx-large;
 }

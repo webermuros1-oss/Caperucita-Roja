@@ -1,49 +1,32 @@
-header, h2{text-align: center;
-
+header,h2{color: antiquewhite; 
+display: grid;
+place-items: center;
 }
-body{background-color: crimson;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-
+body{color: antiquewhite;
+align-items: center;
+background: green;
+}
 .firstImage{
-    width: 450px;
-    height: 450px;
-    margin-left: auto;
+    display: grid;
+    place-items: center;
+    margin: auto;
     display: block;
-    margin-bottom: auto;
-}
-
-h1,h2{
-    color: wheat;
 }
 .secondImage{
-    width: 450px;
-    height: 450px;
+    display: grid;
     margin: auto;
+    place-items: center;
     display: block;
-    margin-bottom: auto;
 }
 .thirdImage{
-    width: 450px;
-    height: 450px;
-    margin: auto;
-    display: block;
-    margin-bottom: auto;
+    display: grid;
+place-items: center;
+margin: auto;
+display: block;
 }
 .fourImage{
-    width: 450px;
-    height: 450px;
+    display: grid;
+    place-items: center;
     margin: auto;
-    display: block;
-    margin-bottom: auto
-}
-.firstSection{
-font-family: serif;
-font-size: xx-large;
-}
-.firstDiv{
-text-align: center;
-color: wheat;
-}
-.secondDiv{
-    text-align: left;
+    display: block
 }

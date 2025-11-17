@@ -1,16 +1,23 @@
 header,h2{
-display: grid;
-place-items: center;
-color: red;
-font-size: xx-large;
+    display: grid;
+    place-items: center;
+    font-size: xx-large;
+    color:brown
 }
+h1{  display: grid;
+    place-items: center;
+    font-size: xx-large;
+    color:rgb(109, 27, 27);
+    
+}
+
 h2{
-    color: black;
+    color: rgb(43, 44, 114);
 }
 body{align-items: center;
-background: green;
-display: grid;
-place-items:center;
+    background: green;
+    display: grid;
+    place-items:center;
 }
 main{
     display: grid;
@@ -34,11 +41,11 @@ main{
 }
 .thirdImage{
     display: grid;
-place-items: center;
-margin: auto;
-display: block;
-height: 430px;
-width: 430px;
+    place-items: center;
+    margin: auto;
+    display: block;
+    height: 430px;
+    width: 430px;
 }
 .fourImage{
     display: grid;
@@ -50,6 +57,7 @@ width: 430px;
 }
 .firstSection{
     color: red;
+    align-items: center;
     place-items: center;
     font-size: xx-large;
 }
